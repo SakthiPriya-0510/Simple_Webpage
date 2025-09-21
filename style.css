@@ -1,0 +1,99 @@
+    body {
+        font-size: 23px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .simcon {
+        font-family: sans-serif;
+        padding: 10px;
+        color: rgb(238, 134, 168);
+        border: ridge;
+        width: 720px;
+    }
+    
+    #list {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 100px
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .left {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 20px;
+    }
+    
+    #font {
+        color: rgb(106, 56, 155);
+        font-size: 32px;
+        font-family: Haettenschweiler;
+        font-weight: 100;
+        font-style: oblique;
+        text-align: center;
+        text-decoration: overline;
+    }
+    
+    .box1 {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .box1 th,
+    .box1 td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .box1 th {
+        background-color: lightblue;
+    }
+    
+    .box1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    #box {
+        border: 2px solid rgb(96, 96, 240);
+        padding: 10px;
+        border-radius: 2rem;
+        color: rgb(43, 159, 226);
+        background-color: bisque;
+    }
+    
+    .box2 {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-style: dotted;
+    }
+    
+    .box2 td {
+        border: 1px solid rgb(55, 0, 255);
+        text-align: center;
+    }
+    
+    .box2 th {
+        background-color: rgb(168, 168, 214);
+        padding: 7px;
+    }
+    
+    #ifflex {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML+CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple webpage </h1>
+    <p> It is a document written in HTML that browsers like Google Chrome or Firefox can display.HTML is made of tags that define the structure and content of the page.<br>This webpage contains
+    </p>
+    <div id="list">
+        <ul>
+            <li><mark>List</mark></li>
+            <li><i>Link and Media</i></li>
+            <li><em>Table</em></li>
+            <li><small>Fieldset</small></li>
+            <li><u>IFrame</u></li>
+            <li><b>Others</b></li>
+
+        </ul>
+        <p>Here basic elements, which describes contents are used -></p>
+        <ol>
+
+            <li>mark</li>
+            <a href="simple.html#s1">
+                <li>italic</li>
+            </a>
+            <a href="simple.html#s2">
+                <li>emphasis</li>
+            </a>
+            <a href="simple.html#s3">
+                <li>small</li>
+            </a>
+            <a href="simple.html#s4">
+                <li>underline</li>
+            </a>
+            <a href="simple.html#s5">
+                <li>bold</li>
+            </a>
+        </ol>
+    </div>
+
+    <hr>
+    <section id="s1">
+        <h2>Link and Media</h2>
+        <p>This image depicts simple explanation of html,css and javascript</p>
+        <pre class="simcon">HTML: The structure and content of a webpage (what you see).
+CSS: The styling and layout of a webpage (how it looks).
+JavaScript: The behavior and interactivity of a webpage (how it works).</pre>
+        <div class="container">
+            <div class="left">
+                <img src="Capture.PNG" alt="Simple image" width="550px" height="350px">
+                <p>Audio</p>
+                <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">Your browser does not support the audio element.
+            </audio>
+            </div>
+            <div class="right">
+                <p>Unavailable image</p>
+                <a href="https://scrimba.com/articles/content/images/2022/11/image-1.png" target="_blank"><img src=" Invalid.PNG " alt="Description of the image if its not available.Other option:You can click on it to view online version" width="450px " height="250px "></a>
+                <p>Video</p>
+                <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="s2">
+        <h2>Table</h2>
+        <p>To implement the table concept- its explained using simple css properties</p>
+        <table class="box1">
+            <tr>
+                <th>Properties</th>
+                <th>Specific</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>Text/Font</td>
+                <td>color, font-family, font-size, font-weight, font-style, text-align, text-decoration, text-transform, line-height
+                </td>
+                <td id="font">Font designed text</td>
+            </tr>
+            <tr>
+                <td>Box model</td>
+                <td>width, height, padding, margin, border, border-radius, box-sizing</td>
+                <td>
+                    <div id="box">
+                        Box designed text</div>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <table class="box2">
+                <tr>
+                    <th>CSS selector</th>
+                </tr>
+                <tr>
+                    <td>id</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                </tr>
+                <tr>
+                    <td>element</td>
+                </tr>
+                <tr>
+                    <td>star</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+    <hr>
+    <section id="s3">
+        <center>
+            <h2 title="Tooltip for h2">Fieldset</h2>
+        </center>
+        <fieldset>
+            <legend>"Introduction to fieldset" </legend>
+            <p>The tag in HTML is used to group related elements within a form. It creates a visual box around the grouped content, usually with a border. This helps improve form organization, readability, and accessibility.</p>
+        </fieldset>
+        <p title="Going to use this fieldset in upcoming form">Hover this para to see the secrets</p>
+    </section>
+    <hr>
+    <section id="s4">
+        <h2>iframe</h2>
+        <div id="ifflex">
+            <iframe src="https://html-css-js.com/" height="450" width="1000"></iframe>
+            <p>An inline frame is used to embed another document within the current HTML document.<br><br><mark>Set Height and Width </mark><br>Use the height and width attributes to specify the size of the iframe.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="s5">
+        <h2>Others</h2>
+        <h3>The map and area elements -</h3>
+        <p>coordinates can easily generated by http://www.image-map.net/</p>
+        <p>Click on the computer, the phone, the plant, the note, the pen or the cup of coffee to go to a new page and read more about the topic:</p>
+
+        <img src="workspace.jpg" usemap="#image-map" width="900" height="506">
+        <map name="image-map">
+        <area target="_blank" alt="cup" title="cup" href="html1.html#s1" coords="455,410,40" shape="circle">
+    <area target="_blank" alt="plant" title="plant" href="html1.html#s2" coords="709,250,38" shape="circle">
+    <area target="_blank" alt="laptop" title="laptop" href="html1.html#s3" coords="294,93,602,92,581,182,582,193,585,372,318,373,318,191" shape="poly">
+    <area target="_blank" alt="phone" title="phone" href="html1.html#s4" coords="784,283,837,319,769,432,712,397" shape="poly">
+    <area target="_blank" alt="note" title="note" href="html1.html#s5" coords="85,246,208,282,156,465,28,428" shape="poly">
+    <area target="_blank" alt="pen" title="pen" href="html1.html#s5" coords="235,300,246,425" shape="rect">
+        </map>
+
+    </section>
+    <hr>
+
+    </script>
+</body>
+
+</html>

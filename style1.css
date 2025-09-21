@@ -1,0 +1,33 @@
+ html {
+     scroll-behavior: smooth;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: row;
+     gap: 40px
+ }
+ 
+ #s1 p {
+     font-family: 'Franklin Gothic Medium';
+     font-size: 30px;
+ }
+ 
+ #s2 p {
+     font-family: sans-serif;
+     padding: 10px;
+     color: rgb(14, 56, 146);
+     border: ridge;
+     width: 1200px;
+     font-size: 30px;
+ }
+ 
+ #s4 p {
+     font-family: 'Segoe UI';
+     font-size: 20px;
+ }
+ 
+ #s5 p {
+     font-family: 'Times New Roman';
+     font-size: 25px;
+ }
